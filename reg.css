@@ -1,0 +1,41 @@
+button {
+    float: right;
+    margin-top: 20px;
+    background-color: purple;
+    color: whitesmoke;
+    border-radius: 15px;
+    border: solid 3px gray;
+}
+
+fieldset {
+    border-color: blueviolet;  
+    text-align: center;
+    border-radius: 20px;
+    width: max-content;
+}
+body {
+    background-color: rgb(24, 23, 23);
+}
+legend {
+    background-color: purple;
+    color: whitesmoke;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px gray;
+    font-weight: 900;
+}
+
+div {
+   padding-left: 650px;
+   padding-top: 30px;  
+   display: flex;
+
+}
+
+input {
+    background-color: rgba(81, 8, 165, 0.76);
+    border-radius: 15px;
+width: 250px;
+}
+
