@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="HU">
+
+<head>
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+    <div>
+        <fieldset>
+            <legend>REGISZTRÁCIÓ</legend>
+            <input type="Email" id="ema" placeholder="Email" style="text-align: center;"> <br> <br>
+            <input type="password" id="jel1" placeholder="Jelszo1" style="text-align: center;"> <br> <br>
+            <input type="password" id="jel2" placeholder="Jelszo2" style="text-align: center;"> <br>
+            <button onclick="reg(ema.value,jel1.value,jel2.value)">REGISZTRÁCIÓ</button>
+
+
+        </fieldset>
+
+        <script>
+            function reg(user, pass1, pass2) {
+                if (user != "" && pass1 != "" && pass2 != "") {
+                    if (pass1 == pass2) {
+                        alert("Sikeres regisztráció!")
+                    }
+                }
+                else {
+                    alert("Hibás email vagy jelszó!")
+                }
+
+            }
+
+
+
+
+        </script>
+
+    </div>
+
+
+
+</body>
+
+</html>
